@@ -1,0 +1,114 @@
+/* Kiểu cho phần chân trang trên */
+.footer-top {
+    background-color: #ffffff;
+    padding: 10px;
+    padding-top: 40px;
+    margin-top: 40px;
+    border-top: 0.5px solid #D9D9D9;
+  }
+  
+  .footer-top .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-top a {
+    display: inline-block;
+  }
+  
+  .footer-top img {
+    max-width: 10%;
+    padding-right: 513px;
+  }
+  
+  /* Kiểu cho phần chân trang dưới */
+  .footer-bottom {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-col {
+    flex: 1;
+    margin: 0 15px;
+  }
+  
+  .footer-bottom .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+  }
+  
+  .footer-bottom .col-md-4,
+  .footer-bottom .col-sm-4,
+  .footer-bottom .col-xs-6 {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-bottom .footer-links,
+  .footer-bottom .footer-social-support,
+  .footer-bottom .footer-support__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .footer-bottom .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-bottom .footer-links li a {
+    color: #2C2C2C;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .footer-social-support {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-social-support > div {
+    flex: 1 1 100%;
+  }
+  
+  .footer-social__list,
+  .footer-support__list,
+  .logo-bct {
+    text-align: center;
+  }
+  
+/* Kiểu cho phần bản quyền */
+.footer-copyright {
+    background-color: #ffffff;
+    color: #555;
+    padding: 10px;
+  }
+  
+  .footer-copyright .container {
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Chỉnh kích thước chữ nhỏ */
+  .footer-copyright {
+    font-size: 12px;
+  }

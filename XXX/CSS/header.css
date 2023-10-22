@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    line-height: 1.4;
+    font-size: 14px;
+    color: #2C2C2C;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif !important;
+}
+
+.index-notify {
+    background-color: #000000;
+    margin: 0;
+    padding: 10px;
+}
+
+.index-notify_header {
+    text-align: center;
+}
+
+.index-notify_header a {
+    font-weight: 500;
+    font-style: normal;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/*header*/
+.header-assets {
+    display: grid;
+    grid-template-columns: 1fr 3fr 0.5fr 1fr;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .header-logo img {
+    width: 120px; /* Sử dụng giá trị kích thước cố định */
+    height: auto;
+    object-fit: contain;
+    padding-left: 3px;
+    margin-left: 20px;
+  }
+  
+  .symbol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 5px;
+    margin-left: 37px;
+  }
+  
+  .symbol img {
+    justify-content: left;
+    align-items: center;
+    width: 20px;
+    padding: 5px;
+  }
+  
+  /* Responsive CSS */
+  @media (max-width: 768px) {
+    .header-assets {
+      grid-template-columns: 1fr 2fr 0.5fr 1fr;
+    }
+  
+    .symbol {
+      width: 80px;
+      margin-left: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header-assets {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+  
+    .header-logo {
+      flex: 1;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  
+    .header-logo img {
+      width: 160px; /* Giữ nguyên kích thước */
+    }
+  
+    .symbol {
+      flex: 1;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .header-logo img {
+      width: 120px; /* Giữ nguyên kích thước */
+    }
+  }
+
+/*search-bar*/
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  border: 1.5px solid #101010d5;
+  border-radius: 20px;
+  padding: 5px;
+  min-width: 200px; /* Đặt giới hạn tối thiểu cho kích thước width của search bar */
+  width: 60.5%; /* Sử dụng width 100% để search bar điều chỉnh theo kích thước của phần tử cha */
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  padding: 1.9px;
+  padding-left: 0px;
+  font-size: 15.5px;
+  color: #000000f5;
+  width: 98%;
+  margin-left: 5px;
+}
+
+.search-bar-logo {
+  width: 16px;
+  object-fit: contain;
+  padding: 3px;
+  margin-left: 4px;
+}
+
+@media (max-width: 600px) {
+  /* Định nghĩa CSS cho màn hình có chiều rộng tối đa 600px */
+  .search-bar {
+    display: flex; /* Sử dụng justify-content và align-items để căn chỉnh các phần tử con */
+    justify-content: center; /* Căn giữa phần tử con */
+  }
+
+  .search-input {
+    width: 100%; /* Sử dụng width 100% để nằm trên cùng một dòng */
+    margin-left: 5px;
+  }
+}
+
+.menu-header-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+  
+.menu-header {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 680px; 
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Inter', Sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #2c2c2c;
+}
+  
+.menu-header li {
+    padding: 5px 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+}
+
+.menu-header li:hover {
+    border-bottom-color: #000; 
+}
+  
+.banner {
+    margin-top: 5px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+  
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+
+
